@@ -138,6 +138,8 @@
 
     window.requestAnimationFrame(type);
     <img class="source-image" src="shuangjiang.jpg" alt="" />
+    $(document).ready(function() { var $winwidth = $(window).width(); $("img.source-image").attr({ width: $winwidth }); $(window).bind("resize", function(){ var $winwidth = $(window).width(); $("img.source-image").attr({ width: $winwidth }); }); });
+    // img.source-image {position: absolute;top: 0;left: 0}
     </script>
   </body>
 </html>
