@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable: yes;" />
     <!-- 引用有字库站酷高端黑字体 -->
     <style>
       * {
@@ -20,8 +20,8 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          /* background: url("shuangjiang.jpg") no-repeat; */
-          /* background-repeat: no-repeat; */
+          background: url("shuangjiang.jpg") no-repeat;
+          background-repeat: no-repeat;
           /* background-size: cover; */
         }
         
@@ -137,8 +137,8 @@
     }
 
     window.requestAnimationFrame(type);
-    <img class="source-image" src="shuangjiang.jpg" alt="" />
-    $(document).ready(function() { var $winwidth = $(window).width(); $("img.source-image").attr({ width: $winwidth }); $(window).bind("resize", function(){ var $winwidth = $(window).width(); $("img.source-image").attr({ width: $winwidth }); }); });
+    // <img class="source-image" src="shuangjiang.jpg" alt="" />
+    // $(document).ready(function() { var $winwidth = $(window).width(); $("img.source-image").attr({ width: $winwidth }); $(window).bind("resize", function(){ var $winwidth = $(window).width(); $("img.source-image").attr({ width: $winwidth }); }); });
     // img.source-image {position: absolute;top: 0;left: 0}
     </script>
   </body>
